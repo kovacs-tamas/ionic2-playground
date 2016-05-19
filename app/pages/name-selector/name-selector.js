@@ -16,10 +16,14 @@ export class NameSelectorPage {
 
   constructor(nav, DataProvider) {
     this.nav = nav;
-    this.db = DataProvider;
+    // this.db = DataProvider;
 
+    // this.isInitialised = DataProvider.isInitialised();
+    
 
-    console.log(this.db.getName());
+    console.log('constructor running');
+
+    // console.log(this.db.getName());
     
   }
 }
